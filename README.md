@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# Web3 Bank 合约
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## 项目概述
+这个项目是一个简单的 Bank 合约，允许用户存款和合约拥有者进行提款。
 
-Try running some of the following tasks:
+## 合约状态
+合约已经完成，注释详细。已在 Remix 上部署并测试过。当前正在完善部署脚本和测试脚本。
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## 功能
+- 用户可以向合约转账 ETH。
+- 合约拥有者可以提取合约中的所有 ETH。
+- 合约记录每个用户的余额。
+
+## 使用说明
+1. 确保在 Remix 上部署合约。
+2. 使用合约提供的功能进行测试。
+
+## TODO
+- 完善部署脚本
+- 完善测试脚本
+
+## 许可证
+此项目采用 MIT 许可证。
